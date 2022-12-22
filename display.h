@@ -8,7 +8,7 @@ class display{
     public:
     void addDigit(Digit digit);
     void addOperation(Operation operation);
-    void showResult(float result);
+    void showResult(int result);
     void clean();
 };
 

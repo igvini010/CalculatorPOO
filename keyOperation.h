@@ -2,8 +2,9 @@
 #define KEYOPERATION_H
 
 #include "enumOperation.h"
+#include "calculator.h"
 
-class keyOperation{
+class keyOperation: public calculator{
     public:
     Operation pressPlus();
     Operation pressLess();

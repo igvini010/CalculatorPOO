@@ -31,13 +31,10 @@ void display::addOperation(Operation operation){
     }
 };
 
-void display::showResult(float result){
+void display::showResult(int result){
     cout << result << endl;
 };
 
 void display::clean(){
-    cout << "Limpando a tela...";
-    for(int i = 0; i < 50; i++){
-        printf("\n");
-    }
-}
+    system("cls");
+};

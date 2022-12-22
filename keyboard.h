@@ -6,7 +6,7 @@
 
 class keyboard: public keyDigit, public keyOperation{
     public:
-
+    
 };
 
 #endif

@@ -4,12 +4,13 @@
 #include "enumOperation.h"
 
 class cpu{
-    float plus(float n1, float n2);
-    float less(float n1, float n2);
-    float multiplication(float n1, float n2);
-    float division(float n1, float n2);
+    int temp = 0;
+    int plus(int n1, int n2);
+    int less(int n1, int n2);
+    int multiplication(int n1, int n2);
+    int division(int n1, int n2);
     public:
-    float operation(float n1, float n2, Operation op);
+    int operation(int n1, int n2, Operation op);
 };
 
 #endif

@@ -1,25 +1,25 @@
 #include "keyOperation.h"
 
 Operation keyOperation::pressPlus(){
-    return Plus;
+    calculator::showDisplay_Operations(Plus);
 };
 
 Operation keyOperation::pressLess(){
-    return Less;
+    calculator::showDisplay_Operations(Less);
 };
 
 Operation keyOperation::pressMultiplication(){
-    return Multiplication;
+    calculator::showDisplay_Operations(Multiplication);
 };
 
 Operation keyOperation::pressDivision(){
-    return Division;
+    calculator::showDisplay_Operations(Division);
 };
 
 Operation keyOperation::pressEqual(){
-    return Equal;
+    calculator::showDisplay_Operations(Equal);
 };
 
 Operation keyOperation::pressSeparator(){
-    return Separator;
+    calculator::showDisplay_Operations(Separator);
 };

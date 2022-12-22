@@ -2,8 +2,9 @@
 #define KEYDIGIT_H
 
 #include "enumDigit.h"
+#include "calculator.h"
 
-class keyDigit{
+class keyDigit: public calculator{
     public:
     Digit pressZero();
     Digit pressOne();
